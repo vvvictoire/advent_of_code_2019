@@ -8,6 +8,8 @@ SOUTH = (0, -1)
 EAST = (1, 0)
 WEST = (-1, 0)
 
+
+
 def get_direction_tuple(direction):
     if direction == 'U':
         return NORTH
